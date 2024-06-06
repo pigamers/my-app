@@ -21,9 +21,9 @@ function Hero(){
                 startDelay={2000}
             cursorColor="#4FA29E"
             multiText={[
-            'Web Developer',
-            'Graphics Designer',
-            'App Developer',
+            'Developer',
+            'Designer',
+            'Gamer',
             ]}
                 multiTextDelay={1000}
                 typeSpeed={50}

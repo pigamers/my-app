@@ -38,9 +38,6 @@ return (
           </li>
         ))
       }
-      <div className='pb-4 pl-3 md:pb-1'>
-      <FiSun size={35} className='text-three hover:text-four'/>
-      </div>
       <Button>
         Download CV
       </Button>
