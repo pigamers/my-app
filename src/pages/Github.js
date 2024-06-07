@@ -5,7 +5,7 @@ import { TbFunction } from 'react-icons/tb'
 import { VscVmActive } from 'react-icons/vsc'
 
 export default function Github() {
-  const [data,setData] = useState({});
+  const [data, setData] = useState({});
   const githubApi = "https://api.github.com/users/pigamers"
 
   axios.get(githubApi)
