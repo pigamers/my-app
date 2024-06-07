@@ -1,14 +1,12 @@
 import './App.css';
 import React from 'react';
-
 import Navbar from './components/Navbar';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Skills from './pages/Skills';
 import Projects from './pages/Projects';
-import Academics from './pages/Academics';
-import About from "./pages/About";
 import Home from './pages/Home';
 import Footer from './components/Footer';
+import Github from './pages/Github';
 
 function App() {
   return (
@@ -19,8 +17,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/skills' element={<Skills />} />
           <Route path='/projects' element={<Projects />} />
-          <Route path='/academics' element={<Academics />} />
-          <Route path='/about' element={<About />} />
+          <Route path='/github' element={<Github />} />
         </Routes>
       </BrowserRouter>
       <Footer />
