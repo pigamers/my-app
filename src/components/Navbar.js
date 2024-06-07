@@ -8,7 +8,7 @@ const Navbar = (props) => {
     { name: "HOME", href: "/" },
     { name: "SKILLS", href: "/skills" },
     { name: "PROJECTS", href: "/projects" },
-    { name: "GITHUB", href: "/github" },
+    { name: "ABOUT", href: "/about" },
   ];
   let [open, setOpen] = useState(false);
 

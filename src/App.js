@@ -6,7 +6,7 @@ import Skills from './pages/Skills';
 import Projects from './pages/Projects';
 import Home from './pages/Home';
 import Footer from './components/Footer';
-import Github from './pages/Github';
+import About from './pages/About';
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/skills' element={<Skills />} />
           <Route path='/projects' element={<Projects />} />
-          <Route path='/github' element={<Github />} />
+          <Route path='/about' element={<About />} />
         </Routes>
       </BrowserRouter>
       <Footer />
