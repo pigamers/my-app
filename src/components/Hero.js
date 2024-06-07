@@ -9,7 +9,7 @@ function Hero() {
             <div className='flex flex-col space-y-10 px-14 lg:flex-row items-center py-12 lg:justify-around'>
                 <div className='text-three text-left'>
                     <h1 className='text-lg pb-1'>Hello this is</h1>
-                    <h1 className='text-4xl lg:text-6xl pb-3 font-semibold bg-clip-text text-transparent bg-gradient-to-r from-three via-five to-four'>Mayank Kumar Sharma</h1>
+                    <h1 className='text-4xl whitespace-nowrap lg:text-6xl pb-3 font-semibold bg-clip-text text-transparent bg-gradient-to-r from-three via-five to-four'>Mayank Kumar Sharma</h1>
                     <p className='font-fonty text-4xl space-y-5'>
                         <TypeWriterEffect
                             text="I'm an aspiring "

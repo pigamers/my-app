@@ -3,10 +3,11 @@ import { AiFillCode } from 'react-icons/ai';
 import { MdDeveloperMode, MdSchool } from 'react-icons/md';
 import { SiAdobeindesign } from 'react-icons/si';
 import { FaSchool } from 'react-icons/fa';
-import { BsPersonBoundingBox, BsFileCodeFill } from "react-icons/bs";
+import { BsPersonBoundingBox } from "react-icons/bs";
 import { VscVmActive } from "react-icons/vsc";
-import { TbFunction } from "react-icons/tb";
+import { RiLockPasswordLine } from "react-icons/ri";
 import { FaEye } from "react-icons/fa";
+import { IoConstruct } from "react-icons/io5";
 
 function SectionOne() {
   return (
@@ -56,7 +57,7 @@ function SectionOne() {
               </div>
             </div>
           </div>
-          <a href="/skills" class="items-center justify-center mt-10 px-5 py-3 text-lg font-medium text-center text-three border border-gray-300 rounded-lg hover:bg-three hover:text-two">Know More</a>
+          <a href="/skills" class="items-center justify-center mt-10 px-5 py-3 text-lg font-medium text-center text-three border border-gray-300 rounded-lg hover:bg-three hover:text-two">View More</a>
         </div>
       </div>
       <hr className='h-px w-3/4 m-auto border-0 bg-five' />
@@ -111,22 +112,48 @@ function SectionOne() {
               </div>
             </div>
             <div class="max-w-sm rounded p-5 bg-three lg:hover:scale-105 overflow-hidden shadow-lg shadow-five">
-              <TbFunction className='m-auto mt-5' size={60} />
+              <RiLockPasswordLine className='m-auto mt-5' size={60} />
               <div class="px-6 py-4">
-                <div class="font-bold text-xl mb-2">Full Functional Website</div>
-                <p class="text-two text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                <div class="font-bold text-xl mb-2">Password Generator</div>
+                <p class="text-two text-base">I have created my own Password Generator Web App in React Js with the help of youtube tutorial. Click on the code button to view the Code or Click on Live Preview to see the website live below.</p>
+              </div>
+              <div className='flex flex-row justify-center items-center gap-8'>
+                <button className='border border-two py-2 px-3 rounded hover:bg-four hover:text-two duration-100'>
+                  <a href='https://github.com/pigamers/passwordGenerator.git'>
+                    Code
+                  </a>
+                </button>
+                <button className='border border-two py-2 px-3 rounded hover:bg-four hover:text-two duration-100'>
+                  <a href='https://password-generator-eight-murex.vercel.app/' className='flex gap-2 items-center'>
+                    Live Preview
+                    <FaEye size={25} />
+                  </a>
+                </button>
               </div>
             </div>
             <div class="max-w-sm rounded p-5 bg-three lg:hover:scale-105 overflow-hidden shadow-lg shadow-five">
-              <BsFileCodeFill className='m-auto mt-5 text-five' size={60} />
+              <IoConstruct className='m-auto mt-5 text-five' size={60} />
               <div class="px-6 py-4">
-                <div class="font-bold text-xl mb-2">Atri Framework</div>
-                <p class="text-two text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                <div class="font-bold text-xl mb-2">Infra Project</div>
+                <p class="text-two text-base">This project was for an Infrastucture company. This is the front end client side view of the project. This website is too Responsive in almost every device.</p>
+              </div>
+              <div className='flex flex-row justify-center items-center gap-8'>
+                <button className='border border-two py-2 px-3 rounded hover:bg-four hover:text-two duration-100'>
+                  <a href='https://github.com/pigamers/buildingnew.git'>
+                    Code
+                  </a>
+                </button>
+                <button className='border border-two py-2 px-3 rounded hover:bg-four hover:text-two duration-100'>
+                  <a href='https://buildingnew.vercel.app/' className='flex gap-2 items-center'>
+                    Live Preview
+                    <FaEye size={25} />
+                  </a>
+                </button>
               </div>
             </div>
           </div>
-          <a href="/projects" class="items-center justify-center px-5 py-3 text-lg font-medium text-center text-three border border-gray-300 rounded-lg hover:bg-three hover:text-two">
-            Know More
+          <a href="/projects" class="items-center justify-center my-4 px-5 py-3 text-lg font-medium text-center text-three border border-gray-300 rounded-lg hover:bg-three hover:text-two">
+            View More
           </a>
         </div>
       </div>

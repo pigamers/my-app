@@ -5,7 +5,7 @@ import { BsFileCodeFill } from 'react-icons/bs';
 
 export default function Projects() {
   return (
-    <div class="bg-two pt-24 pb-10 font-fonty">
+    <div class="bg-two font-fonty cursor-default select-none py-24">
     <div class=" mx-auto max-w-screen-xl text-center lg:py-16">
         <h1 class="mb-4 text-4xl font-semibold text-three md:text-5xl lg:text-6xl">Projects</h1>
         <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48">Welcome to the Projects Page</p>
