@@ -8,6 +8,7 @@ import { VscVmActive } from "react-icons/vsc";
 import { RiLockPasswordLine } from "react-icons/ri";
 import { FaEye } from "react-icons/fa";
 import { IoConstruct } from "react-icons/io5";
+import { Link } from 'react-router-dom';
 
 function SectionOne() {
   return (
@@ -46,7 +47,7 @@ function SectionOne() {
               <MdDeveloperMode className='m-auto mt-5 text-five' size={60} />
               <div class="px-6 py-4">
                 <div class="font-bold text-xl mt-2 mb-5">Web Development</div>
-                <p class="text-lg text-two">I have learning and practicing web development from my start of 2nd year. And currently I am learning React for front end and Node for backend.</p>
+                <p class="text-lg text-two">I have been learning and practicing web development from my start of 2nd year. And currently I am learning React for front end and Node for backend.</p>
               </div>
             </div>
             <div class="max-w-md rounded p-5 bg-three lg:hover:scale-105 overflow-hidden shadow-lg shadow-five">
@@ -57,7 +58,7 @@ function SectionOne() {
               </div>
             </div>
           </div>
-          <a href="/skills" class="items-center justify-center mt-10 px-5 py-3 text-lg font-medium text-center text-three border border-gray-300 rounded-lg hover:bg-three hover:text-two">View More</a>
+          <Link to="/skills" className="items-center justify-center mt-10 px-5 py-3 text-lg font-medium text-center text-three border border-gray-300 rounded-lg hover:bg-three hover:text-two">View More</Link>
         </div>
       </div>
       <hr className='h-px w-3/4 m-auto border-0 bg-five' />
@@ -67,18 +68,18 @@ function SectionOne() {
             Academics
           </h1>
           <div className='flex flex-col text-center py-10 space-y-20 lg:space-y-0 lg:gap-x-28 lg:space-x-10 lg:flex-row'>
-            <div class="max-w-sm rounded p-5 bg-three lg:hover:scale-105 overflow-hidden shadow-lg shadow-five">
-              <FaSchool className='m-auto mt-5 text-five' size={60} />
-              <div class="px-6 py-4">
-                <div class="font-bold text-xl mt-2 mb-5">School</div>
-                <p class="text-gray-700 text-base">I completed my schooling from Sudhir Memorial Institute Liluah which was CBSE. In my class 10th I got 84% and in 12th I got 71%</p>
+            <div className="max-w-sm rounded p-5 bg-three lg:hover:scale-105 overflow-hidden shadow-lg shadow-five">
+              <FaSchool classNameName='m-auto mt-5 text-five' size={60} />
+              <div className="px-6 py-4">
+                <div className="font-bold text-xl mt-2 mb-5">School</div>
+                <p className="text-gray-700 text-base">I completed my schooling from Sudhir Memorial Institute Liluah which was CBSE. In my class 10th I got 84% and in 12th I got 71%</p>
               </div>
             </div>
-            <div class="max-w-sm rounded p-5 bg-three lg:hover:scale-105 overflow-hidden shadow-lg shadow-five">
+            <div className="max-w-sm rounded p-5 bg-three lg:hover:scale-105 overflow-hidden shadow-lg shadow-five">
               <MdSchool className='m-auto mt-5' size={60} />
-              <div class="px-6 py-4">
-                <div class="font-bold text-xl mt-2 mb-5">College</div>
-                <p class="text-gray-700 text-base">I'm a 3rd Year student from University of Engineering & Management,Kolkata currently pursuing Bachelors of Technology in Computer Science. My average CGPA is 8.4 (uptil 5th sem)</p>
+              <div className="px-6 py-4">
+                <div className="font-bold text-xl mt-2 mb-5">College</div>
+                <p className="text-gray-700 text-base">I'm a 3rd Year student from University of Engineering & Management,Kolkata currently pursuing Bachelors of Technology in Computer Science. My average CGPA is 8.4 (uptil 5th sem)</p>
               </div>
             </div>
           </div>
@@ -152,9 +153,9 @@ function SectionOne() {
               </div>
             </div>
           </div>
-          <a href="/projects" class="items-center justify-center my-4 px-5 py-3 text-lg font-medium text-center text-three border border-gray-300 rounded-lg hover:bg-three hover:text-two">
+          <Link to="/projects" class="items-center justify-center my-4 px-5 py-3 text-lg font-medium text-center text-three border border-gray-300 rounded-lg hover:bg-three hover:text-two">
             View More
-          </a>
+          </Link>
         </div>
       </div>
     </div>
