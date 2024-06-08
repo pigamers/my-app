@@ -10,9 +10,11 @@ import { FaEye } from "react-icons/fa";
 import { IoConstruct } from "react-icons/io5";
 import { Link } from 'react-router-dom';
 
-function SectionOne() {
+export default function SectionOne() {
+
   return (
     <div>
+      {/* About Me section of Home page */}
       <div className='bg-two font-fonty px-16 py-24'>
         <div className='flex flex-col items-center lg:flex-row lg:justify-around cursor-default select-none'>
           <h1 className='text-6xl md:text-8xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-three via-five to-four pb-16'>
@@ -30,6 +32,7 @@ function SectionOne() {
         </div>
       </div>
       <hr className='h-px w-3/4 m-auto border-0 bg-five' />
+      {/* What I know Section of Home page */}
       <div className='bg-two font-fonty px-16 py-24 select-none'>
         <div className='flex flex-col items-center '>
           <h1 className='text-6xl md:text-8xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-three via-five to-four pb-16'>
@@ -62,6 +65,7 @@ function SectionOne() {
         </div>
       </div>
       <hr className='h-px w-3/4 m-auto border-0 bg-five' />
+      {/* Academics Section of Home page */}
       <div className='bg-two font-fonty px-16 py-24 select-none cursor-default'>
         <div className='flex flex-col items-center'>
           <h1 className='text-6xl md:text-8xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-three via-five to-four pb-16'>
@@ -86,6 +90,7 @@ function SectionOne() {
         </div>
       </div>
       <hr className='h-px w-3/4 m-auto border-0 bg-five' />
+      {/* Projects Sections of Home page */}
       <div className='bg-two font-fonty px-16 py-24 select-none cursor-default'>
         <div className='flex flex-col items-center'>
           <h1 className='text-6xl md:text-8xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-three via-five to-four pb-16'>
@@ -99,17 +104,17 @@ function SectionOne() {
                 <p class="text-two text-base">I know how to make a full responsive website with a framework. I know Tailwind CSS a CSS framework and I know React also. This website is made with React and Tailwind together.</p>
               </div>
               <div className='flex flex-row justify-center items-center gap-8'>
-                <button className='border border-two py-2 px-3 rounded hover:bg-four hover:text-two duration-100'>
-                  <a href='https://github.com/pigamers/my-app.git'>
+                <a href='https://github.com/pigamers/my-app.git'>
+                  <button className='border border-two py-2 px-3 rounded hover:bg-four hover:text-two duration-100'>
                     Code
-                  </a>
-                </button>
-                <button className='border border-two py-2 px-3 rounded hover:bg-four hover:text-two duration-100'>
-                  <a href='/' className='flex gap-2 items-center'>
+                  </button>
+                </a>
+                <a href='/'>
+                  <button className='border flex gap-2 items-center border-two py-2 px-3 rounded hover:bg-four hover:text-two duration-100'>
                     Live Preview
                     <FaEye size={25} />
-                  </a>
-                </button>
+                  </button>
+                </a>
               </div>
             </div>
             <div class="max-w-sm rounded p-5 bg-three lg:hover:scale-105 overflow-hidden shadow-lg shadow-five">
@@ -119,17 +124,17 @@ function SectionOne() {
                 <p class="text-two text-base">I have created my own Password Generator Web App in React Js with the help of youtube tutorial. Click on the code button to view the Code or Click on Live Preview to see the website live below.</p>
               </div>
               <div className='flex flex-row justify-center items-center gap-8'>
-                <button className='border border-two py-2 px-3 rounded hover:bg-four hover:text-two duration-100'>
-                  <a href='https://github.com/pigamers/passwordGenerator.git'>
+                <a href='https://github.com/pigamers/passwordGenerator.git'>
+                  <button className='border border-two py-2 px-3 rounded hover:bg-four hover:text-two duration-100'>
                     Code
-                  </a>
-                </button>
-                <button className='border border-two py-2 px-3 rounded hover:bg-four hover:text-two duration-100'>
-                  <a href='https://password-generator-eight-murex.vercel.app/' className='flex gap-2 items-center'>
+                  </button>
+                </a>
+                <a href='https://password-generator-eight-murex.vercel.app/'>
+                  <button className='border flex gap-2 items-center border-two py-2 px-3 rounded hover:bg-four hover:text-two duration-100'>
                     Live Preview
                     <FaEye size={25} />
-                  </a>
-                </button>
+                  </button>
+                </a>
               </div>
             </div>
             <div class="max-w-sm rounded p-5 bg-three lg:hover:scale-105 overflow-hidden shadow-lg shadow-five">
@@ -139,17 +144,17 @@ function SectionOne() {
                 <p class="text-two text-base">This project was for an Infrastucture company. This is the front end client side view of the project. This website is too Responsive in almost every device.</p>
               </div>
               <div className='flex flex-row justify-center items-center gap-8'>
-                <button className='border border-two py-2 px-3 rounded hover:bg-four hover:text-two duration-100'>
-                  <a href='https://github.com/pigamers/buildingnew.git'>
+                <a href='https://github.com/pigamers/buildingnew.git'>
+                  <button className='border border-two py-2 px-3 rounded hover:bg-four hover:text-two duration-100'>
                     Code
-                  </a>
-                </button>
-                <button className='border border-two py-2 px-3 rounded hover:bg-four hover:text-two duration-100'>
-                  <a href='https://buildingnew.vercel.app/' className='flex gap-2 items-center'>
+                  </button>
+                </a>
+                <a href='https://buildingnew.vercel.app/'>
+                  <button className='border flex gap-2 items-center border-two py-2 px-3 rounded hover:bg-four hover:text-two duration-100'>
                     Live Preview
                     <FaEye size={25} />
-                  </a>
-                </button>
+                  </button>
+                </a>
               </div>
             </div>
           </div>
@@ -161,5 +166,3 @@ function SectionOne() {
     </div>
   )
 }
-
-export default SectionOne
