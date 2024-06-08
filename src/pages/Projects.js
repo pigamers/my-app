@@ -2,9 +2,10 @@ import React from 'react';
 import { VscVmActive } from 'react-icons/vsc';
 import { RiLockPasswordLine } from "react-icons/ri";
 import { IoConstruct } from "react-icons/io5";
-import { FaEye, FaWix } from "react-icons/fa";
+import { FaEye, FaWix, FaYoutube } from "react-icons/fa";
 import { TbAppWindow } from "react-icons/tb";
 import { BsApp } from "react-icons/bs";
+import { SiSetapp } from "react-icons/si";
 
 export default function Projects() {
   return (
@@ -125,6 +126,41 @@ export default function Projects() {
             <a href='https://unfluke-page-leaderboard.vercel.app/'>
               <button className='border flex gap-2 items-center border-two py-2 px-5 rounded hover:bg-four hover:text-two duration-100'>
                 Live Preview
+                <FaEye size={25} />
+              </button>
+            </a>
+          </div>
+        </div>
+        <div class="max-w-4xl rounded p-5 bg-three lg:hover:scale-105 overflow-hidden shadow-lg shadow-five">
+          <SiSetapp className='m-auto mt-5 text-five' size={60} />
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Simple React Application</div>
+            <p class="text-two text-base">This project was also an Internship assignment. This website is Responsive on almost every screens. I have handled api and used material ui in this project.</p>
+          </div>
+          <div className='flex flex-row justify-center items-center gap-8'>
+            <a href='https://github.com/pigamers/go-bananas-project.git'>
+              <button className='border border-two py-2 px-5 rounded hover:bg-four hover:text-two duration-100'>
+                Code
+              </button>
+            </a>
+            <a href='https://go-bananas-project.vercel.app/'>
+              <button className='border flex gap-2 items-center border-two py-2 px-5 rounded hover:bg-four hover:text-two duration-100'>
+                Live Preview
+                <FaEye size={25} />
+              </button>
+            </a>
+          </div>
+        </div>
+        <div class="max-w-4xl rounded p-5 bg-three lg:hover:scale-105 overflow-hidden shadow-lg shadow-five">
+          <FaYoutube className='m-auto mt-5 text-five' size={60} />
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Video & Photo Editing</div>
+            <p class="text-two text-base">Below is the link to my youtube channel where I have uploaded many videos and thumbnails. I have used different video editing softwares for editing videos. Click on the button below to go to the youtube channel.</p>
+          </div>
+          <div className='flex place-content-center'>
+            <a href='https://www.youtube.com/@pi-gamers'>
+              <button className='border flex gap-2 items-center border-two py-2 px-5 rounded hover:bg-four hover:text-two duration-100'>
+                Go to
                 <FaEye size={25} />
               </button>
             </a>
