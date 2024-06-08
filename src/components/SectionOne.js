@@ -23,7 +23,7 @@ function SectionOne() {
               <BsPersonBoundingBox className='m-auto mt-5' size={60} />
               <div class="px-6 py-4">
                 <div class="font-bold text-2xl mt-2 mb-5">SharmaJi</div>
-                <p class="text-base lg:text-lg text-two">I'm a 3rd Year student from University of Engineering & Management,Kolkata currently pursuing Bachelors of Technology in Computer Science. I am a Web Developer practicing React and Node js and I am also interested in Problem Solving and CyberSecurity. Apart from this also love to play almost every single mobile or computer games. I also love to travel with my family alot.</p>
+                <p class="text-base lg:text-lg text-two">I'm a 3rd Year student from University of Engineering & Management,Kolkata currently pursuing Bachelors of Technology in Computer Science. I am a Web Developer, practicing React and Node js. I am also interested in Problem Solving and CyberSecurity. Apart from this I also love to play almost every single mobile or computer games. I also love to travel with my family alot.</p>
               </div>
             </div>
           </div>
@@ -68,18 +68,18 @@ function SectionOne() {
             Academics
           </h1>
           <div className='flex flex-col text-center py-10 space-y-20 lg:space-y-0 lg:gap-x-28 lg:space-x-10 lg:flex-row'>
-            <div className="max-w-sm rounded p-5 bg-three lg:hover:scale-105 overflow-hidden shadow-lg shadow-five">
-              <FaSchool classNameName='m-auto mt-5 text-five' size={60} />
+            <div className="max-w-md rounded p-5 bg-three lg:hover:scale-105 overflow-hidden shadow-lg shadow-five">
+              <FaSchool className='m-auto mt-5' size={60} />
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mt-2 mb-5">School</div>
-                <p className="text-gray-700 text-base">I completed my schooling from Sudhir Memorial Institute Liluah which was CBSE. In my class 10th I got 84% and in 12th I got 71%</p>
+                <p className="text-two text-base">I completed my schooling from Sudhir Memorial Institute Liluah which was CBSE. In my class 10th I got 84% and in 12th I secured 71%</p>
               </div>
             </div>
-            <div className="max-w-sm rounded p-5 bg-three lg:hover:scale-105 overflow-hidden shadow-lg shadow-five">
+            <div className="max-w-md rounded p-5 bg-three lg:hover:scale-105 overflow-hidden shadow-lg shadow-five">
               <MdSchool className='m-auto mt-5' size={60} />
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mt-2 mb-5">College</div>
-                <p className="text-gray-700 text-base">I'm a 3rd Year student from University of Engineering & Management,Kolkata currently pursuing Bachelors of Technology in Computer Science. My average CGPA is 8.4 (uptil 5th sem)</p>
+                <p className="text-two text-base">I'm a 3rd Year student from University of Engineering & Management,Kolkata currently pursuing Bachelors of Technology in Computer Science. My average CGPA is 8.4 (uptil 5th sem)</p>
               </div>
             </div>
           </div>
