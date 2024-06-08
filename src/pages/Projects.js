@@ -132,7 +132,7 @@ export default function Projects() {
           </div>
         </div>
         <div class="max-w-4xl rounded p-5 bg-three lg:hover:scale-105 overflow-hidden shadow-lg shadow-five">
-          <SiSetapp className='m-auto mt-5 text-five' size={60} />
+          <SiSetapp className='m-auto mt-5 text-two' size={60} />
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Simple React Application</div>
             <p class="text-two text-base">This project was also an Internship assignment. This website is Responsive on almost every screens. I have handled api and used material ui in this project.</p>
