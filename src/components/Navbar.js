@@ -28,7 +28,7 @@ const Navbar = (props) => {
             <ion-icon style={{ color: "#C5C6C7" }} name={open ? 'close' : 'menu'}></ion-icon>
           </div>
 
-          <ul className={`md:flex py-5 bg-one font-fonty md:items-center md:pb-0 pb-12 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-5 transition-all duration-500 ease-in ${open ? 'top-20 ' : 'top-[-490px]'}`}>
+          <ul className={`md:flex py-5 bg-one cursor-default select-none font-fonty md:items-center md:pb-0 pb-12 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-5 transition-all duration-500 ease-in ${open ? 'top-20 ' : 'top-[-490px]'}`}>
             {
               Links.map((href) => (
                 <li key={href.name} className='md:ml-8 text-xl md:my-0 my-7 px-2'>
