@@ -69,6 +69,6 @@ This will create a `build` directory with the production build of the app.
 ## Contact
 
 - Email:  **mayanksharma.teghoria@gmail.com**
-- [LinkedIn]: (https://www.linkedin.com/in/mayank-kumar-sharma-636221212/)
+- [LinkedIn](https://www.linkedin.com/in/mayank-kumar-sharma-636221212/)
 
 # Thank You!!!
