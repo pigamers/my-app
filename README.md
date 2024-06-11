@@ -42,27 +42,27 @@ Make sure you have the following installed:
 
 - Step 1:
   
-**`git clone https://github.com/pigamers/my-app.git`**
+  **`git clone https://github.com/pigamers/my-app.git`**
 
 - Step 2:
 
-**`cd my-app`**
+  **`cd my-app`**
 
 - Step 3:
 
-**`npm i`**
+  **`npm i`**
 
 ## Usage
 
 To start the development server, run:
 
-**`npm run start`**
+  **`npm run start`**
 
 This will run the app in development mode. Open http://localhost:3000 to view it in the browser.
 
 To build the project for production, run:
 
-**`npm run build`**
+  **`npm run build`**
 
 This will create a `build` directory with the production build of the app.
 
