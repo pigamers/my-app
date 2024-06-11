@@ -126,7 +126,7 @@ export default function About() {
             </div>
             {/* Google Maps Api data */}
             <APIProvider apiKey={apiKey}>
-              <div className="h-96 -z-30 my-5 w-4/5 shadow-four rounded-xl overflow-hidden shadow-lg">
+              <div className="h-96 -z-50 my-5 w-4/5 shadow-four rounded-xl overflow-hidden shadow-lg">
                 <Map
                   className='w-full h-full'
                   defaultZoom={15}
