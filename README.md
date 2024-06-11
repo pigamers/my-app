@@ -4,7 +4,9 @@ Welcome to my personal portfolio website! This site showcases my projects, skill
 
 ## About
 
-This portfolio website is designed to provide an overview of my work and knowledge. It includes sections for my projects, skills, education, and contact information. And the website also have a Download CV button on the Navbar.
+This portfolio website is designed to provide an overview of my work and knowledge. It includes sections for my projects, skills, education, and contact information. It consists of 4 pages Home, Skills, Projects and About. And the website's Navbar also consists of a Download CV button which will redirect the user to my resume's drive link.
+
+Apart from that I have also used google maps api for showing up my current location(which is not true but obvious).
 
 ## Features
 
