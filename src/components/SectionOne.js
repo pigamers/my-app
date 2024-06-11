@@ -35,7 +35,7 @@ export default function SectionOne() {
       {/* What I know Section of Home page */}
       <div className='bg-two font-fonty px-16 py-24 select-none'>
         <div className='flex flex-col items-center '>
-          <h1 className='text-6xl md:text-8xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-three via-five to-four pb-16'>
+          <h1 className='text-6xl md:text-8xl whitespace-nowrap font-semibold bg-clip-text text-transparent bg-gradient-to-r from-three via-five to-four pb-16'>
             What I Know
           </h1>
           <div className='flex flex-col py-10 text-center space-y-20 lg:space-y-0 lg:space-x-10 lg:flex-row'>
@@ -43,7 +43,7 @@ export default function SectionOne() {
               <AiFillCode className='m-auto mt-5' size={60} />
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mt-2 mb-5">Programming</div>
-                <p className="text-lg text-two">I know C language and I am familiar with Java, Python & JavaScript. I have been learning Programming from my 1st year in my college.</p>
+                <p className="text-lg text-two">I know C language and I am familiar with Java, Python & JavaScript. I have been learning Programming from my 1st year of my college.</p>
               </div>
             </div>
             <div className="max-w-md rounded p-5 bg-three lg:hover:scale-105 overflow-hidden shadow-lg shadow-five">

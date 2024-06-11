@@ -4,8 +4,8 @@ import { APIProvider, Map, Marker } from "@vis.gl/react-google-maps";
 export default function About() {
   // My Latitude & Longitude
   const [markerLocation, setMarkerLocation] = useState({
-    lat: 22.6202613,
-    lng: 88.4363184,
+    lat: 22.641251,
+    lng: 88.431160,
   });
 
   const apiKey = process.env.REACT_APP_GOOGLE_MAPS_API_KEY;
@@ -126,7 +126,7 @@ export default function About() {
             </div>
             {/* Google Maps Api data */}
             <APIProvider apiKey={apiKey}>
-              <div className="h-96 w-4/5 shadow-four rounded-xl overflow-hidden shadow-lg">
+              <div className="h-96 my-5 w-4/5 shadow-four rounded-xl overflow-hidden shadow-lg">
                 <Map
                   className='w-full h-full'
                   defaultZoom={15}
@@ -137,6 +137,7 @@ export default function About() {
                   <Marker position={markerLocation} />
                 </Map>
               </div>
+              <h1>I live here..</h1>
             </APIProvider>
           </div>
         </div>

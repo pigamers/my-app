@@ -18,7 +18,7 @@ export default function Projects() {
       </div>
       <hr className='h-px w-3/4 m-auto border-0 bg-five' />
       <div className='flex flex-col py-10 mx-8 items-center text-center space-y-16'>
-        <div className="max-w-4xl rounded p-5 bg-three lg:hover:scale-105 overflow-hidden shadow-lg shadow-five">NameclassName
+        <div className="max-w-4xl rounded p-5 bg-three lg:hover:scale-105 overflow-hidden shadow-lg shadow-five">
           <MdDashboard className='m-auto mt-5 text-five' size={60} />
           <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2">CA Dashboard</div>
