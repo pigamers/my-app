@@ -25,7 +25,7 @@ export default function Skills() {
           <MdDeveloperMode className='m-auto mt-5 text-two' size={60} />
           <div className="px-6 py-4">
             <div className="font-bold text-xl mt-2 mb-5">Web Development</div>
-            <p className="text-lg text-two">I have been learning and practicing web development from my start of 2nd year. And currently I am learning React for front end and Node for backend. I am currently working on my 7xl stack project made with MERN.</p>
+            <p className="text-lg text-two">I have been learning and practicing web development from my start of 2nd year. And currently I am learning React for front end and Node for backend. I am currently working on my full stack project made with MERN.</p>
           </div>
         </div>
         <div className="max-w-4xl rounded p-5 bg-three lg:hover:scale-105 overflow-hidden shadow-lg shadow-five">
@@ -39,7 +39,7 @@ export default function Skills() {
           <FaWordpress className='m-auto mt-5 text-two' size={60} />
           <div className="px-6 py-4">
             <div className="font-bold text-xl mt-2 mb-5">Wordpress Development</div>
-            <p className="text-lg text-two">I know how to develop Wordpress websites. I have worked with Elementor Pro to design the website. I worked with Wordpress around 1 month.</p>
+            <p className="text-lg text-two">I know how to develop Wordpress websites. I have worked with Elementor Pro to design the website. I have worked on Wordpress for around 1 month.</p>
           </div>
         </div>
         <div className="max-w-4xl rounded p-5 bg-three lg:hover:scale-105 overflow-hidden shadow-lg shadow-five">

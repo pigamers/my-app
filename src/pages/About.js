@@ -1,15 +1,14 @@
-import React from 'react';
-import { useJsApiLoader } from '@react-google-maps/api';
+import React, { useState } from 'react';
+import { APIProvider, Map, Marker } from "@vis.gl/react-google-maps";
 
 export default function About() {
+  // My Latitude & Longitude
+  const [markerLocation, setMarkerLocation] = useState({
+    lat: 22.6202613,
+    lng: 88.4363184,
+  });
 
-  const {isLoaded} = useJsApiLoader({
-    googleMapsApiKey: process.env.API_KEY
-  })
-
-  if(!isLoaded) {
-    
-  }
+  const apiKey = process.env.REACT_APP_GOOGLE_MAPS_API_KEY;
 
   return (
     <div className="bg-two py-24 font-fonty cursor-default select-none">
@@ -20,8 +19,8 @@ export default function About() {
       <hr className='h-px w-11/12 m-auto border-0 bg-five' />
       {/* Table of Details */}
       <div className="py-10 mx-8 overflow-x-auto">
-        <table className="w-3/4 m-auto shadow-lg shadow-five text-lg text-center rtl:text-right text-three">
-          <thead className="text-lg text-two uppercase bg-four">
+        <table className="w-3/4 m-auto shadow-lg shadow-four text-lg text-center rtl:text-right text-three">
+          <thead className="text-lg text-two uppercase bg-five">
             <tr>
               <th scope="col" className="px-6 py-3"></th>
               <th scope="col" className="px-6 py-3">Details</th>
@@ -68,6 +67,7 @@ export default function About() {
       <div className="mx-auto max-w-7xl">
         <div className="mx-auto max-w-7xl py-12 md:py-16">
           <div className="grid items-center justify-items-center gap-x-4 gap-y-10 lg:grid-cols-2">
+            {/* Contact form */}
             <div className="flex items-center justify-center">
               <div className="px-2 md:px-12">
                 <p className="text-2xl font-bold text-four md:text-4xl">Get in touch</p>
@@ -125,6 +125,19 @@ export default function About() {
               </div>
             </div>
             {/* Google Maps Api data */}
+            <APIProvider apiKey={apiKey}>
+              <div className="h-96 w-4/5 shadow-four rounded-xl overflow-hidden shadow-lg">
+                <Map
+                  className='w-full h-full'
+                  defaultZoom={15}
+                  defaultCenter={markerLocation}
+                  gestureHandling={"greedy"}
+                  disableDefaultUI
+                >
+                  <Marker position={markerLocation} />
+                </Map>
+              </div>
+            </APIProvider>
           </div>
         </div>
       </div>
