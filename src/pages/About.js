@@ -137,7 +137,6 @@ export default function About() {
                   <Marker position={markerLocation} />
                 </Map>
               </div>
-              <h1>I live here..</h1>
             </APIProvider>
           </div>
         </div>
