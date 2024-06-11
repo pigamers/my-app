@@ -5,7 +5,7 @@ import TypeWriterEffect from 'react-typewriter-effect';
 
 function Hero() {
     return (
-        <section class="bg-two pt-24 pb-10 font-fonty cursor-default select-none">
+        <section className="bg-two pt-24 pb-10 font-fonty cursor-default select-none">
             <div className='flex flex-col space-y-10 px-14 lg:flex-row items-center py-12 lg:justify-around'>
                 <div className='text-three text-left'>
                     <h1 className='text-lg pb-1'>Hello this is</h1>
