@@ -29,6 +29,9 @@ export default function SectionOne() {
               </div>
             </div>
           </div>
+          <Link to="/about" class="items-center justify-center my-4 px-5 py-3 text-lg font-medium text-center text-three border border-gray-300 rounded-lg hover:bg-three hover:text-two">
+            View More
+          </Link>
         </div>
       </div>
       <hr className='h-px w-3/4 m-auto border-0 bg-five' />

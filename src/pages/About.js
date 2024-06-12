@@ -1,15 +1,16 @@
-import React, { useState } from 'react';
-import { APIProvider, Map, Marker } from "@vis.gl/react-google-maps";
+import React from 'react';
+// import { useState } from 'react';
+// import { APIProvider, Map, Marker } from "@vis.gl/react-google-maps";
 
 export default function About() {
   // My Latitude & Longitude
-  const [markerLocation, setMarkerLocation] = useState({
+  /*const [markerLocation, setMarkerLocation] = useState({
     lat: 22.641251,
     lng: 88.431160,
   });
 
   const apiKey = process.env.REACT_APP_GOOGLE_MAPS_API_KEY;
-
+  */
   return (
     <div className="bg-two py-24 font-fonty cursor-default select-none">
       <div className="mx-auto max-w-screen-xl text-center py-16">
@@ -62,12 +63,13 @@ export default function About() {
           </tbody>
         </table>
       </div>
-      <hr className='h-px w-11/12 m-auto border-0 bg-five' />
+      {/* <hr className='h-px w-11/12 m-auto border-0 bg-five' /> */}
       {/* Contact Me form */}
-      <div className="mx-auto max-w-7xl">
-        <div className="mx-auto max-w-7xl py-12 md:py-16">
-          <div className="grid items-center justify-items-center gap-x-4 gap-y-10 lg:grid-cols-2">
-            {/* Contact form */}
+      
+      {/* <div className="mx-auto max-w-7xl"> */}
+        {/* <div className="mx-auto max-w-7xl py-12 md:py-16"> */}
+          {/* <div className="grid items-center justify-items-center gap-x-4 gap-y-10 lg:grid-cols-2"> */}
+            {/*  
             <div className="flex items-center justify-center">
               <div className="px-2 md:px-12">
                 <p className="text-2xl font-bold text-four md:text-4xl">Get in touch</p>
@@ -124,7 +126,9 @@ export default function About() {
                 </form>
               </div>
             </div>
+            */}
             {/* Google Maps Api data */}
+            {/* 
             <APIProvider apiKey={apiKey}>
               <div className="h-96 -z-50 my-5 w-4/5 shadow-four rounded-xl overflow-hidden shadow-lg">
                 <Map
@@ -138,9 +142,10 @@ export default function About() {
                 </Map>
               </div>
             </APIProvider>
-          </div>
-        </div>
-      </div>
+             */}
+          {/* </div> */}
+        {/* </div> */}
+      {/* </div> */}
     </div>
   );
 }

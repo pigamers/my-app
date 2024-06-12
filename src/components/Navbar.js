@@ -2,6 +2,7 @@ import '../App.css';
 import { React, useState } from 'react';
 import Button from './Button';
 import logo from "../logo.png";
+import cv from '../Resume.pdf'
 
 const Navbar = (props) => {
   let Links = [
@@ -37,7 +38,7 @@ const Navbar = (props) => {
               ))
             }
             <Button>
-              <a href='https://drive.google.com/file/d/1xi6lyl31SRek4DlTgWiqrh76mRVsKJd2/view?usp=sharing'>
+              <a href={cv} download={cv}>
                 Download CV
               </a>
             </Button>

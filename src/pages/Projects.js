@@ -13,7 +13,7 @@ export default function Projects() {
   return (
     <div className="bg-two font-fonty cursor-default select-none py-24">
       <div className=" mx-auto max-w-screen-xl text-center py-16">
-        <h1 className="mb-4 text-4xl font-semibold text-four md:text-5xl lg:text-6xl">Projects</h1>
+        <h1 className="mb-4 text-4xl font-semibold text-four md:text-5xl lg:text-6xl">Projects Page</h1>
         <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl">Welcome to the Projects Page</p>
       </div>
       <hr className='h-px w-3/4 m-auto border-0 bg-five' />

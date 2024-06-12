@@ -9,7 +9,7 @@ export default function Skills() {
   return (
     <div className="bg-two py-24 font-fonty cursor-default select-none">
       <div className="mx-auto max-w-screen-xl text-center py-16">
-        <h1 className="mb-4 text-4xl font-semibold md:text-5xl lg:text-7xl text-four">Skills</h1>
+        <h1 className="mb-4 text-4xl font-semibold md:text-5xl lg:text-7xl text-four">Skills Page</h1>
         <p className="mb-8 text-lg font-normal text-three lg:text-xl">Welcome to the Skills Page</p>
       </div>
       <hr className='h-px w-11/12 m-auto border-0 bg-five' />
