@@ -1,3 +1,6 @@
+NOTE: THIS FILE IS OF NO USE SO THAT IS WHY THE FILE NAME IS NO USE. 
+
+
 <div className='bg-two px-4 py-8 font-fonty items-center'>
       <div className='flex justify-around px-5'>
         <div className='p-6'>
