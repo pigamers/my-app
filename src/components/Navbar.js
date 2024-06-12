@@ -2,7 +2,7 @@ import '../App.css';
 import { React, useState } from 'react';
 import Button from './Button';
 import logo from "../logo.png";
-// import cv from '../Resume.pdf'
+import cv from '../Resume.pdf'
 
 const Navbar = (props) => {
   let Links = [
@@ -38,7 +38,7 @@ const Navbar = (props) => {
               ))
             }
             <Button>
-              <a>
+              <a href={cv} download={cv}>
                 Download CV
               </a>
             </Button>
